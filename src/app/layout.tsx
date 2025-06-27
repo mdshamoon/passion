@@ -35,7 +35,7 @@ export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
-}>) { 
+}>) {
   return (
     <html lang="en" className="scroll-smooth">
       <body className={`${inter.variable} ${jetbrainsMono.variable} antialiased`}>
