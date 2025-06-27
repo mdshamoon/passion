@@ -16,8 +16,7 @@ const blogPosts = [
     category: "Mission",
     readTime: "5 min read",
     author: "Scientific Curiosity Labs",
-    featured: true,
-    videoPlaceholder: "Lab Setup Progress in Lucknow"
+    featured: true
   },
   {
     id: 2,
@@ -27,8 +26,7 @@ const blogPosts = [
     category: "Education",
     readTime: "7 min read",
     author: "Scientific Curiosity Labs",
-    featured: false,
-    videoPlaceholder: "Physical vs Virtual Learning Comparison"
+    featured: false
   },
   {
     id: 3,
@@ -38,8 +36,7 @@ const blogPosts = [
     category: "Technology",
     readTime: "6 min read",
     author: "Scientific Curiosity Labs",
-    featured: false,
-    videoPlaceholder: "Arduino Project Showcase"
+    featured: false
   },
   {
     id: 4,
@@ -49,8 +46,7 @@ const blogPosts = [
     category: "Mathematics",
     readTime: "8 min read",
     author: "Scientific Curiosity Labs",
-    featured: false,
-    videoPlaceholder: "Mathematical Research in India"
+    featured: false
   },
   {
     id: 5,
@@ -60,8 +56,7 @@ const blogPosts = [
     category: "Technology",
     readTime: "10 min read",
     author: "Scientific Curiosity Labs",
-    featured: false,
-    videoPlaceholder: "Quantum Computing Roadmap for India"
+    featured: false
   },
   {
     id: 6,
@@ -71,8 +66,7 @@ const blogPosts = [
     category: "Robotics",
     readTime: "5 min read",
     author: "Scientific Curiosity Labs",
-    featured: false,
-    videoPlaceholder: "Student Robot Competition Highlights"
+    featured: false
   }
 ];
 
@@ -117,42 +111,26 @@ export default function BlogPage() {
                 </span>
               </div>
 
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-                <div>
-                  <h2 className="text-3xl font-bold text-white mb-4">{post.title}</h2>
-                  <p className="text-gray-300 mb-6 leading-relaxed">{post.excerpt}</p>
-                  
-                  <div className="flex items-center gap-4 text-sm text-gray-400 mb-6">
-                    <span>{post.date}</span>
-                    <span>•</span>
-                    <span>{post.readTime}</span>
-                    <span>•</span>
-                    <span>{post.author}</span>
-                  </div>
-
-                  <Link
-                    href={`/blog/${post.id}`}
-                    className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-emerald-600 to-teal-600 rounded-full text-white font-semibold hover:scale-105 transition-transform"
-                  >
-                    Read Full Article
-                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                    </svg>
-                  </Link>
-                </div>
-
-                <div className="aspect-video bg-gray-800 rounded-2xl flex items-center justify-center border border-gray-600">
-                  <div className="text-center">
-                    <div className="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-3">
-                      <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M8 5v14l11-7z"/>
-                      </svg>
-                    </div>
-                    <p className="text-gray-300 font-medium">{post.videoPlaceholder}</p>
-                    <p className="text-gray-500 text-sm mt-1">[YouTube Video Placeholder]</p>
-                  </div>
-                </div>
+              <h2 className="text-3xl font-bold text-white mb-4">{post.title}</h2>
+              <p className="text-gray-300 mb-6 leading-relaxed">{post.excerpt}</p>
+              
+              <div className="flex items-center gap-4 text-sm text-gray-400 mb-6">
+                <span>{post.date}</span>
+                <span>•</span>
+                <span>{post.readTime}</span>
+                <span>•</span>
+                <span>{post.author}</span>
               </div>
+
+              <Link
+                href={`/blog/${post.id}`}
+                className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-emerald-600 to-teal-600 rounded-full text-white font-semibold hover:scale-105 transition-transform"
+              >
+                Read Full Article
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </Link>
             </div>
           ))}
 
@@ -170,17 +148,6 @@ export default function BlogPage() {
                   }`}>
                     {post.category}
                   </span>
-                </div>
-
-                <div className="aspect-video bg-gray-800 rounded-xl flex items-center justify-center border border-gray-600 mb-4">
-                  <div className="text-center">
-                    <div className="w-8 h-8 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-2">
-                      <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M8 5v14l11-7z"/>
-                      </svg>
-                    </div>
-                    <p className="text-gray-300 text-xs">{post.videoPlaceholder}</p>
-                  </div>
                 </div>
 
                 <h3 className="text-xl font-bold text-white mb-3 group-hover:text-emerald-400 transition-colors">
