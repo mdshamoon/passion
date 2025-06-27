@@ -11,22 +11,22 @@ export const navigationItems = [
     description: 'Our mission to advance Indian research'
   },
   {
-    name: 'Physical Labs',
+    name: 'Labs',
     href: '/labs',
     description: 'Arduino setups, holograms, and robo races'
   },
   {
-    name: 'Curious Maths',
+    name: 'Math',
     href: '/mathematics',
     description: 'Latest mathematics research and Fields Medal winners'
   },
   {
-    name: 'Cutting Edge Tech',
+    name: 'Tech',
     href: '/technology',
     description: 'Quantum computing, AI, and emerging technologies'
   },
   {
-    name: 'Blog Posts',
+    name: 'Blog',
     href: '/blog',
     description: 'Regular updates and insights'
   },
@@ -39,17 +39,17 @@ export const navigationItems = [
 
 export const resourceCategories = [
   {
-    name: 'YouTube Channels',
+    name: 'Channels',
     href: '/resources/channels',
-    description: 'Curated educational channels'
+    description: 'Curated educational YouTube channels'
   },
   {
-    name: 'Interesting Videos',
+    name: 'Videos',
     href: '/resources/videos',
     description: 'Handpicked educational videos'
   },
   {
-    name: 'Useful Sites',
+    name: 'Sites',
     href: '/resources/sites',
     description: 'Valuable educational websites and tools'
   }

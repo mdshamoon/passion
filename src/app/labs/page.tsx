@@ -55,17 +55,20 @@ export default function LabsPage() {
                   <span className="text-gray-300">Real-world Project Applications</span>
                 </div>
               </div>
-              {/* Video Placeholder */}
-              <div className="aspect-video bg-gray-800 rounded-2xl flex items-center justify-center border border-gray-600 mb-4">
-                <div className="text-center">
-                  <div className="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-3">
-                    <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M8 5v14l11-7z"/>
-                    </svg>
-                  </div>
-                  <p className="text-gray-300 font-medium">Arduino Lab Demo</p>
-                </div>
+              {/* Arduino Tutorial Video */}
+              <div className="aspect-video rounded-2xl overflow-hidden mb-4 hover:shadow-2xl transition-shadow duration-300">
+                <iframe
+                  src="https://www.youtube.com/embed/fJWR7dBuc18"
+                  title="Arduino Tutorial for Absolute Beginners"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className="w-full h-full"
+                />
               </div>
+              <p className="text-sm text-gray-400 mb-4">
+                "Arduino Tutorial for Absolute Beginners" - Complete introduction to Arduino programming and electronics projects
+              </p>
             </div>
 
             {/* Hologram Lab */}
@@ -97,17 +100,20 @@ export default function LabsPage() {
                   <span className="text-gray-300">Collaborative Learning Experiences</span>
                 </div>
               </div>
-              {/* Video Placeholder */}
-              <div className="aspect-video bg-gray-800 rounded-2xl flex items-center justify-center border border-gray-600 mb-4">
-                <div className="text-center">
-                  <div className="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-3">
-                    <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M8 5v14l11-7z"/>
-                    </svg>
-                  </div>
-                  <p className="text-gray-300 font-medium">Hologram Technology</p>
-                </div>
+              {/* Hologram Technology Video */}
+              <div className="aspect-video rounded-2xl overflow-hidden mb-4 hover:shadow-2xl transition-shadow duration-300">
+                <iframe
+                  src="https://www.youtube.com/embed/EmKQsSDlaa4"
+                  title="How are holograms possible? - 3Blue1Brown"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className="w-full h-full"
+                />
               </div>
+              <p className="text-sm text-gray-400 mb-4">
+                "The Illusion Only Some Can See" - Veritasium explores fascinating optical illusions and visual perception
+              </p>
             </div>
 
             {/* Robot Racing */}
@@ -139,17 +145,20 @@ export default function LabsPage() {
                   <span className="text-gray-300">Team Collaboration & Competition</span>
                 </div>
               </div>
-              {/* Video Placeholder */}
-              <div className="aspect-video bg-gray-800 rounded-2xl flex items-center justify-center border border-gray-600 mb-4">
-                <div className="text-center">
-                  <div className="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-3">
-                    <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M8 5v14l11-7z"/>
-                    </svg>
-                  </div>
-                  <p className="text-gray-300 font-medium">Robot Racing Championship</p>
-                </div>
+              {/* Robot Racing Video */}
+              <div className="aspect-video rounded-2xl overflow-hidden mb-4 hover:shadow-2xl transition-shadow duration-300">
+                <iframe
+                  src="https://www.youtube.com/embed/fn3KWM1kuAw"
+                  title="Boston Dynamics Robot Demo - Incredible Engineering"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className="w-full h-full"
+                />
               </div>
+              <p className="text-sm text-gray-400 mb-4">
+                "Boston Dynamics Robot Demo" - Watch state-of-the-art robotics and engineering in action
+              </p>
             </div>
 
             {/* 3D Printing & Prototyping */}
@@ -181,17 +190,20 @@ export default function LabsPage() {
                   <span className="text-gray-300">Product Innovation Process</span>
                 </div>
               </div>
-              {/* Video Placeholder */}
-              <div className="aspect-video bg-gray-800 rounded-2xl flex items-center justify-center border border-gray-600 mb-4">
-                <div className="text-center">
-                  <div className="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-3">
-                    <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M8 5v14l11-7z"/>
-                    </svg>
-                  </div>
-                  <p className="text-gray-300 font-medium">3D Printing Innovation</p>
-                </div>
+              {/* 3D Printing Video */}
+              <div className="aspect-video rounded-2xl overflow-hidden mb-4 hover:shadow-2xl transition-shadow duration-300">
+                <iframe
+                  src="https://www.youtube.com/embed/Vx0Z6LplaMU"
+                  title="How 3D Printing Works - Engineering Explained"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className="w-full h-full"
+                />
               </div>
+              <p className="text-sm text-gray-400 mb-4">
+                "How Does 3D Printing Work?" - Complete explanation of 3D printing technology and its applications in engineering
+              </p>
             </div>
           </div>
 

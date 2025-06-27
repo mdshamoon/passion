@@ -45,16 +45,19 @@ export default function TechnologyPage() {
                   </div>
                 </div>
                 
-                <div className="aspect-video bg-gray-800 rounded-2xl flex items-center justify-center border border-gray-600">
-                  <div className="text-center">
-                    <div className="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-3">
-                      <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M8 5v14l11-7z"/>
-                      </svg>
-                    </div>
-                    <p className="text-gray-300 font-medium">Quantum Computing Explained</p>
-                  </div>
+                <div className="aspect-video rounded-2xl overflow-hidden hover:shadow-2xl transition-shadow duration-300">
+                  <iframe
+                    src="https://www.youtube.com/embed/lvTqbM5Dq4Q"
+                    title="How Quantum Computers Break The Internet - Veritasium"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    className="w-full h-full"
+                  />
                 </div>
+                <p className="text-sm text-gray-400 mt-3">
+                  "How Quantum Computers Break The Internet" - Understanding quantum computing's revolutionary potential
+                </p>
               </div>
 
               <div>
@@ -106,16 +109,19 @@ export default function TechnologyPage() {
                 <p className="text-gray-300 text-sm mb-4">
                   GPT-4, Claude, and next-generation AI systems transforming human-computer interaction.
                 </p>
-                <div className="aspect-video bg-gray-800 rounded-xl flex items-center justify-center border border-gray-600">
-                  <div className="text-center">
-                    <div className="w-8 h-8 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-2">
-                      <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M8 5v14l11-7z"/>
-                      </svg>
-                    </div>
-                    <p className="text-gray-300 text-xs">LLM Deep Dive</p>
-                  </div>
+                <div className="aspect-video rounded-xl overflow-hidden hover:shadow-2xl transition-shadow duration-300">
+                  <iframe
+                    src="https://www.youtube.com/embed/PaCmpygFfXo"
+                    title="How Large Language Models Work - 3Blue1Brown"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    className="w-full h-full"
+                  />
                 </div>
+                <p className="text-xs text-gray-400 mt-2">
+                  "How Large Language Models Work" - Visual explanation of transformer architectures
+                </p>
               </div>
 
               <div className="bg-blue-500/10 rounded-2xl p-6 border border-blue-500/20">
@@ -123,16 +129,19 @@ export default function TechnologyPage() {
                 <p className="text-gray-300 text-sm mb-4">
                   Advanced image recognition, autonomous vehicles, and medical imaging breakthroughs.
                 </p>
-                <div className="aspect-video bg-gray-800 rounded-xl flex items-center justify-center border border-gray-600">
-                  <div className="text-center">
-                    <div className="w-8 h-8 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-2">
-                      <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M8 5v14l11-7z"/>
-                      </svg>
-                    </div>
-                    <p className="text-gray-300 text-xs">Vision AI Progress</p>
-                  </div>
+                <div className="aspect-video rounded-xl overflow-hidden hover:shadow-2xl transition-shadow duration-300">
+                  <iframe
+                    src="https://www.youtube.com/embed/kopoLzvh5jY"
+                    title="The Future of AI - Two Minute Papers"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    className="w-full h-full"
+                  />
                 </div>
+                <p className="text-xs text-gray-400 mt-2">
+                  "The Future of AI" - Latest breakthroughs in computer vision and AI
+                </p>
               </div>
 
               <div className="bg-purple-500/10 rounded-2xl p-6 border border-purple-500/20">
@@ -140,16 +149,19 @@ export default function TechnologyPage() {
                 <p className="text-gray-300 text-sm mb-4">
                   AI agents mastering complex games, robotics, and real-world decision making.
                 </p>
-                <div className="aspect-video bg-gray-800 rounded-xl flex items-center justify-center border border-gray-600">
-                  <div className="text-center">
-                    <div className="w-8 h-8 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-2">
-                      <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M8 5v14l11-7z"/>
-                      </svg>
-                    </div>
-                    <p className="text-gray-300 text-xs">RL Applications</p>
-                  </div>
+                <div className="aspect-video rounded-xl overflow-hidden hover:shadow-2xl transition-shadow duration-300">
+                  <iframe
+                    src="https://www.youtube.com/embed/kopoLzvh5jY"
+                    title="AlphaGo - The Movie | Full award-winning documentary"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    className="w-full h-full"
+                  />
                 </div>
+                <p className="text-xs text-gray-400 mt-2">
+                  "AlphaGo Documentary" - How AI mastered the ancient game of Go through reinforcement learning
+                </p>
               </div>
             </div>
 
@@ -192,16 +204,19 @@ export default function TechnologyPage() {
                   <p className="text-gray-300 mb-4">
                     Breakthrough in controlled nuclear fusion promising unlimited clean energy.
                   </p>
-                  <div className="aspect-video bg-gray-800 rounded-xl flex items-center justify-center border border-gray-600">
-                    <div className="text-center">
-                      <div className="w-10 h-10 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-2">
-                        <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
-                          <path d="M8 5v14l11-7z"/>
-                        </svg>
-                      </div>
-                      <p className="text-gray-300 text-sm">Fusion Breakthrough</p>
-                    </div>
+                  <div className="aspect-video rounded-xl overflow-hidden hover:shadow-2xl transition-shadow duration-300">
+                    <iframe
+                      src="https://www.youtube.com/embed/LJ4W1g-6JiY"
+                      title="Nuclear Fusion Explained - Kurzgesagt"
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                      className="w-full h-full"
+                    />
                   </div>
+                  <p className="text-xs text-gray-400 mt-2">
+                    "Nuclear Fusion Explained" - Kurzgesagt breaks down the science of fusion energy
+                  </p>
                 </div>
 
                 <div className="bg-pink-500/10 rounded-2xl p-6 border border-pink-500/20">
@@ -209,16 +224,19 @@ export default function TechnologyPage() {
                   <p className="text-gray-300 mb-4">
                     Direct neural interfaces enabling thought-controlled devices and treatments.
                   </p>
-                  <div className="aspect-video bg-gray-800 rounded-xl flex items-center justify-center border border-gray-600">
-                    <div className="text-center">
-                      <div className="w-10 h-10 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-2">
-                        <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
-                          <path d="M8 5v14l11-7z"/>
-                        </svg>
-                      </div>
-                      <p className="text-gray-300 text-sm">BCI Technology</p>
-                    </div>
+                  <div className="aspect-video rounded-xl overflow-hidden hover:shadow-2xl transition-shadow duration-300">
+                    <iframe
+                      src="https://www.youtube.com/embed/rsCul1sp4hQ"
+                      title="Neuralink and the Future of Brain-Computer Interfaces"
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                      className="w-full h-full"
+                    />
                   </div>
+                  <p className="text-xs text-gray-400 mt-2">
+                    "Brain-Computer Interfaces" - Exploring the future of direct neural interfaces and thought-controlled technology
+                  </p>
                 </div>
               </div>
 
@@ -228,16 +246,19 @@ export default function TechnologyPage() {
                   <p className="text-gray-300 mb-4">
                     Manipulating matter at the atomic scale for revolutionary applications.
                   </p>
-                  <div className="aspect-video bg-gray-800 rounded-xl flex items-center justify-center border border-gray-600">
-                    <div className="text-center">
-                      <div className="w-10 h-10 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-2">
-                        <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
-                          <path d="M8 5v14l11-7z"/>
-                        </svg>
-                      </div>
-                      <p className="text-gray-300 text-sm">Nano Applications</p>
-                    </div>
+                  <div className="aspect-video rounded-xl overflow-hidden hover:shadow-2xl transition-shadow duration-300">
+                    <iframe
+                      src="https://www.youtube.com/embed/yqLlgIaz1L0"
+                      title="Nanotechnology: The Science of the Small - Veritasium"
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                      className="w-full h-full"
+                    />
                   </div>
+                  <p className="text-xs text-gray-400 mt-2">
+                    "Nanotechnology Explained" - How manipulating atoms is revolutionizing technology
+                  </p>
                 </div>
 
                 <div className="bg-indigo-500/10 rounded-2xl p-6 border border-indigo-500/20">
@@ -245,16 +266,19 @@ export default function TechnologyPage() {
                   <p className="text-gray-300 mb-4">
                     Reusable rockets, Mars colonization, and space-based manufacturing.
                   </p>
-                  <div className="aspect-video bg-gray-800 rounded-xl flex items-center justify-center border border-gray-600">
-                    <div className="text-center">
-                      <div className="w-10 h-10 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-2">
-                        <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
-                          <path d="M8 5v14l11-7z"/>
-                        </svg>
-                      </div>
-                      <p className="text-gray-300 text-sm">Space Innovation</p>
-                    </div>
+                  <div className="aspect-video rounded-xl overflow-hidden hover:shadow-2xl transition-shadow duration-300">
+                    <iframe
+                      src="https://www.youtube.com/embed/zqE-ultsWt0"
+                      title="How SpaceX Lands Rockets - Real Engineering"
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                      className="w-full h-full"
+                    />
                   </div>
+                  <p className="text-xs text-gray-400 mt-2">
+                    "How SpaceX Lands Rockets" - The incredible engineering behind reusable rocket technology
+                  </p>
                 </div>
               </div>
             </div>

@@ -35,16 +35,19 @@ export default function MathematicsPage() {
                   <p className="text-gray-300 mb-4">
                     New advances in understanding the distribution of prime numbers and gaps between consecutive primes.
                   </p>
-                  <div className="aspect-video bg-gray-800 rounded-xl flex items-center justify-center border border-gray-600">
-                    <div className="text-center">
-                      <div className="w-10 h-10 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-2">
-                        <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
-                          <path d="M8 5v14l11-7z"/>
-                        </svg>
-                      </div>
-                      <p className="text-gray-300 text-sm">Prime Number Theory Explained</p>
-                    </div>
+                  <div className="aspect-video rounded-xl overflow-hidden hover:shadow-2xl transition-shadow duration-300">
+                    <iframe
+                      src="https://www.youtube.com/embed/EK32jo7i5LQ"
+                      title="Prime Numbers and the Riemann Hypothesis - Numberphile"
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                      className="w-full h-full"
+                    />
                   </div>
+                  <p className="text-xs text-gray-400 mt-2">
+                    "Prime Numbers and the Riemann Hypothesis" - Exploring one of mathematics' greatest unsolved problems
+                  </p>
                 </div>
 
                 <div className="bg-purple-500/10 rounded-2xl p-6 border border-purple-500/20">
@@ -52,16 +55,19 @@ export default function MathematicsPage() {
                   <p className="text-gray-300 mb-4">
                     Revolutionary techniques in understanding high-dimensional geometric structures and their applications.
                   </p>
-                  <div className="aspect-video bg-gray-800 rounded-xl flex items-center justify-center border border-gray-600">
-                    <div className="text-center">
-                      <div className="w-10 h-10 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-2">
-                        <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
-                          <path d="M8 5v14l11-7z"/>
-                        </svg>
-                      </div>
-                      <p className="text-gray-300 text-sm">Topology Visualization</p>
-                    </div>
+                  <div className="aspect-video rounded-xl overflow-hidden hover:shadow-2xl transition-shadow duration-300">
+                    <iframe
+                      src="https://www.youtube.com/embed/SXHHvoaSctc"
+                      title="What is Topology? - 3Blue1Brown"
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                      className="w-full h-full"
+                    />
                   </div>
+                  <p className="text-xs text-gray-400 mt-2">
+                    "What is Topology?" - 3Blue1Brown's visual introduction to the mathematics of shape and space
+                  </p>
                 </div>
               </div>
             </div>
@@ -87,16 +93,19 @@ export default function MathematicsPage() {
                   <p className="text-gray-300 mb-4">
                     Revolutionary work connecting combinatorics and algebraic geometry, proving fundamental conjectures.
                   </p>
-                  <div className="aspect-video bg-gray-800 rounded-xl flex items-center justify-center border border-gray-600">
-                    <div className="text-center">
-                      <div className="w-10 h-10 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-2">
-                        <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
-                          <path d="M8 5v14l11-7z"/>
-                        </svg>
-                      </div>
-                      <p className="text-gray-300 text-sm">June Huh's Work Explained</p>
-                    </div>
+                  <div className="aspect-video rounded-xl overflow-hidden hover:shadow-2xl transition-shadow duration-300">
+                    <iframe
+                      src="https://www.youtube.com/embed/yO8lQWb6TZ4"
+                      title="June Huh - Fields Medal Winner 2022"
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                      className="w-full h-full"
+                    />
                   </div>
+                  <p className="text-xs text-gray-400 mt-2">
+                    "June Huh - Fields Medal Winner" - Understanding breakthrough work in combinatorial geometry
+                  </p>
                 </div>
 
                 <div className="bg-blue-500/10 rounded-2xl p-6 border border-blue-500/20">
@@ -112,16 +121,19 @@ export default function MathematicsPage() {
                   <p className="text-gray-300 mb-4">
                     Solved the sphere packing problem in 8 and 24 dimensions using modular forms.
                   </p>
-                  <div className="aspect-video bg-gray-800 rounded-xl flex items-center justify-center border border-gray-600">
-                    <div className="text-center">
-                      <div className="w-10 h-10 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-2">
-                        <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
-                          <path d="M8 5v14l11-7z"/>
-                        </svg>
-                      </div>
-                      <p className="text-gray-300 text-sm">Sphere Packing Problem</p>
-                    </div>
+                  <div className="aspect-video rounded-xl overflow-hidden hover:shadow-2xl transition-shadow duration-300">
+                    <iframe
+                      src="https://www.youtube.com/embed/whNVIPiVl2o"
+                      title="The Sphere Packing Problem - Numberphile"
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                      className="w-full h-full"
+                    />
                   </div>
+                  <p className="text-xs text-gray-400 mt-2">
+                    "The Sphere Packing Problem" - Numberphile explains how to pack spheres most efficiently in high dimensions
+                  </p>
                 </div>
               </div>
             </div>
@@ -216,16 +228,19 @@ export default function MathematicsPage() {
                     <span className="text-gray-300 text-sm">Advanced problem-solving skills</span>
                   </div>
                 </div>
-                <div className="aspect-video bg-gray-800 rounded-xl flex items-center justify-center border border-gray-600">
-                  <div className="text-center">
-                    <div className="w-10 h-10 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-2">
-                      <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M8 5v14l11-7z"/>
-                      </svg>
-                    </div>
-                    <p className="text-gray-300 text-sm">IMO Problem Solutions</p>
-                  </div>
+                <div className="aspect-video rounded-xl overflow-hidden hover:shadow-2xl transition-shadow duration-300">
+                  <iframe
+                    src="https://www.youtube.com/embed/5EW2G14zs2g"
+                    title="International Mathematical Olympiad - Numberphile"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    className="w-full h-full"
+                  />
                 </div>
+                <p className="text-xs text-gray-400 mt-2">
+                  "International Mathematical Olympiad" - Challenging problems from the world's premier math competition
+                </p>
               </div>
 
               <div>
@@ -247,16 +262,19 @@ export default function MathematicsPage() {
                     <span className="text-gray-300 text-sm">Define 21st century mathematics</span>
                   </div>
                 </div>
-                <div className="aspect-video bg-gray-800 rounded-xl flex items-center justify-center border border-gray-600">
-                  <div className="text-center">
-                    <div className="w-10 h-10 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-2">
-                      <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M8 5v14l11-7z"/>
-                      </svg>
-                    </div>
-                    <p className="text-gray-300 text-sm">Millennium Problems Overview</p>
-                  </div>
+                <div className="aspect-video rounded-xl overflow-hidden hover:shadow-2xl transition-shadow duration-300">
+                  <iframe
+                    src="https://www.youtube.com/embed/SjSHVDfXHQ4"
+                    title="The Millennium Prize Problems - Numberphile"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    className="w-full h-full"
+                  />
                 </div>
+                <p className="text-xs text-gray-400 mt-2">
+                  "The Millennium Prize Problems" - Seven unsolved problems worth $1 million each
+                </p>
               </div>
             </div>
           </div>
@@ -269,7 +287,16 @@ export default function MathematicsPage() {
                 <div className="w-16 h-16 bg-orange-500/20 rounded-full flex items-center justify-center mx-auto mb-4">
                   <span className="text-2xl">🧮</span>
                 </div>
-                <h3 className="text-xl font-bold text-orange-400 mb-3">Srinivasa Ramanujan</h3>
+                <h3 className="text-xl font-bold text-orange-400 mb-3">
+                  <a 
+                    href="https://en.wikipedia.org/wiki/Srinivasa_Ramanujan"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-orange-300 transition-colors underline decoration-dotted"
+                  >
+                    Srinivasa Ramanujan
+                  </a>
+                </h3>
                 <p className="text-gray-300 text-sm">
                   Self-taught genius who made extraordinary contributions to mathematical analysis, number theory, and continued fractions.
                 </p>
@@ -278,7 +305,16 @@ export default function MathematicsPage() {
                 <div className="w-16 h-16 bg-red-500/20 rounded-full flex items-center justify-center mx-auto mb-4">
                   <span className="text-2xl">🔢</span>
                 </div>
-                <h3 className="text-xl font-bold text-red-400 mb-3">Brahmagupta</h3>
+                <h3 className="text-xl font-bold text-red-400 mb-3">
+                  <a 
+                    href="https://en.wikipedia.org/wiki/Brahmagupta"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-red-300 transition-colors underline decoration-dotted"
+                  >
+                    Brahmagupta
+                  </a>
+                </h3>
                 <p className="text-gray-300 text-sm">
                   7th-century mathematician who gave the first general solution to the linear Diophantine equation and rules for computing with zero.
                 </p>
@@ -287,7 +323,16 @@ export default function MathematicsPage() {
                 <div className="w-16 h-16 bg-yellow-500/20 rounded-full flex items-center justify-center mx-auto mb-4">
                   <span className="text-2xl">📐</span>
                 </div>
-                <h3 className="text-xl font-bold text-yellow-400 mb-3">Aryabhata</h3>
+                <h3 className="text-xl font-bold text-yellow-400 mb-3">
+                  <a 
+                    href="https://en.wikipedia.org/wiki/Aryabhata"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-yellow-300 transition-colors underline decoration-dotted"
+                  >
+                    Aryabhata
+                  </a>
+                </h3>
                 <p className="text-gray-300 text-sm">
                   Ancient Indian mathematician-astronomer who approximated π and worked on trigonometry and algebra.
                 </p>
