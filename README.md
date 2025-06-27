@@ -8,7 +8,7 @@ Creating interactive science labs starting from Lucknow to inspire the next gene
 
 ## 🏗️ Features
 
-### Lab Equipment
+### Lab Equipment 
 - **Robo Maze Solver**: AI-powered robot with computer vision and pathfinding algorithms
 - **Holographic Display**: Interactive 3D projections for complex scientific concepts
 - **3D Printer Lab**: High-precision printing for rapid prototyping and education
